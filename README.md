@@ -193,6 +193,8 @@ curl -u admin:password http://localhost:8000/transactions
 
 **Expected Response:** `200 OK` with JSON array of all transactions
 
+![alt text](screenshots/image.png)
+
 ---
 
 ### 2. GET /transactions/{id}
@@ -204,6 +206,8 @@ curl -u admin:password http://localhost:8000/transactions/1
 ```
 
 **Expected Response:** `200 OK` with single transaction object
+
+![alt text](screenshots/image1.png)
 
 ---
 
@@ -225,6 +229,8 @@ curl -X POST -u admin:password \
 ```
 
 **Expected Response:** `201 Created` with the new transaction object
+
+![alt text](screenshots/image2.png)
 
 ---
 
@@ -252,6 +258,8 @@ curl -X PUT -u admin:password \
 
 **Expected Response:** `200 OK` with updated transaction object
 
+![alt text](screenshots/image3.png)
+
 ---
 
 ### 5. DELETE /transactions/{id}
@@ -264,6 +272,8 @@ curl -X DELETE -u admin:password \
 ```
 
 **Expected Response:** `200 OK` with success message
+
+![alt text](screenshots/image4.png)
 
 ---
 
